@@ -1,0 +1,123 @@
+/* Jwala Khatri */
+body{
+font-family: Arial;
+font-size: 15px;
+}
+
+header{
+background-color: green;
+}
+
+h1
+{
+font-family: Verdana;
+color: white;
+letter-spacing: 10px;
+}
+
+h2
+{
+color:blue;
+text-decoration:none;
+}
+
+main
+{
+background-color: lightgreen;
+}
+
+footer
+{
+background-color: pink;
+font-size: x-small;
+text-align: center;
+}
+
+.image{
+text-align: center;
+}
+
+img{
+    border: solid;
+}
+
+header,nav, main, footer{
+padding: 5px;
+}
+section{
+padding-left: 5px;
+}
+
+h1{
+margin-bottom: 0px;
+}
+
+h4{
+margin-top: 0px;
+}
+
+/* More CSS */
+nav{
+    background-color:darkkhaki;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 10px 3px 10px;
+}
+
+nav a:hover{
+    color: pink;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-image: url(Images/arrow.png)
+}
+
+header{
+    background: url(Images/jk.png) green no-repeat;
+    background-size: 80px 100px;
+    background-position: 10px -10px;
+    padding-left: 95px;
+    height: 70px;
+}
+
+aside#contact{
+    width: 30%;
+    float: right;
+    background: linear-gradient(green,lightgreen);
+    border: thick black dotted;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 5p black;
+}
+
+section{
+    background: url(Images/HipHOP.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+h2{
+    color: yellow;
+    text-shadow: 5px 5px 30px red;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+

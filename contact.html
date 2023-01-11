@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<!-- Jwala Khatri -->
+<!-- Semester Project-->
+
+<head>
+   <title> Jay Kay Music - Albums/Songs</title>
+   <meta charset="UTF-8">
+   <link rel="stylesheet" href="base.css">
+   <link rel="stylesheet" href="style1.css">
+   <link rel="stylesheet" href="layout_style.css">
+   <link rel="stylesheet" href="style_table_form.css">
+   <link rel="stylesheet" href="navicon.css">
+</head>
+
+<body>
+   <div id="layout">
+      <header>
+         <h1> JayKayMusic.com </h1>
+         <h4> Experience the new school Hip-Hop/Rap </h4>
+      </header>
+      <nav>
+         <a id="navicon" href="#"><img src="Images/navicon.png" width="32px" /></a>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+         </ul>
+      </nav>
+      <section>
+         <h2> Contact Us</h2>
+      </section>
+      <main>
+         <p>* Indicates a required field</p>
+         <form name="contactForm" id="contactForm" action="mailto:jwala.khatri@ucdenver.edu" method="get">
+            <fieldset id="contactFields">
+               <legend>Contact Information</legend>
+               <div class="formRow">
+                  <label for="name"><span>*</span>Name: </label>
+                  <input type="text" name="name" id="name" placeholder="Full Name" required />
+               </div>
+               <!--end of First name Div-->
+
+               <div class="formRow">
+                  <label for="email"><span>*</span>Email: </label>
+                  <input type="email" name="email" id="email" placeholder="example@email.com" required />
+               </div>
+               <!--end of 2nd email Div-->
+
+               <div class="formRow">
+                  <label for="phone">Phone: </label>
+                  <input type="tel" name="phone" id="phone" placeholder="303-111-2222" />
+               </div>
+               <!--end of 3rd phone# Div-->
+            </fieldset>
+            <!--end of contact fieldset-->
+
+            <fieldset id="request">
+               <legend>Information Request</legend>
+               <div class="formRow">
+                  <label for="topic"><span>*</span>Question Topic:</label>
+                  <select id="topic" name="topic" required>
+                     <option vlaue="Select a topic">Select a topic</option>
+                     <option value="Products Information">products Information</option>
+                     <option vlaue="Return products">Return Products</option>
+                     <option value="Tour Information">Tour Information</option>
+                     <option vlaue="Website">Website</option>
+                     <option vlaue="Other">Other</option>
+                  </select>
+               </div>
+               <!--end of formRow div-->
+
+               <div class="formRow">
+                  <label for="subject"><span>*</span>Subject:</label>
+                  <input type="text" name="suject" id="subject" required />
+               </div>
+               <!--End of 2nd formRow div-->
+               <label class="blockLabel" for="question"><span>*</span>Ask us Question:</label><br>
+               <textarea id="question" name="question" rows="5" cols="55" required></textarea>
+            </fieldset>
+            <!--End of request fieldset-->
+
+            <fieldset id="mailingList">
+               <legend>Do you want to be on our mailing list?</legend>
+               <label for="mYes">Yes</label>
+               <input type="radio" id="mYes" name="mList" value="yes" />
+               <label for="mNo">No</label>
+               <input type="radio" id="mNo" name="mList" value="no" />
+            </fieldset>
+            <!--End of 3rd mailingList fieldset-->
+
+            <div class="buttonRow">
+               <input type="submit" value="Submit Question" />
+               <input type="Reset" value="Cancel/Reset" />
+            </div>
+            <!--End of submit and reset div-->
+         </form>
+      </main>
+      <footer>
+         Copyright 2020 by Jwala Khatri
+      </footer>
+   </div>
+</body>
+
+</html>

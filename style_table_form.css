@@ -1,0 +1,61 @@
+/* Jwala Khatri */
+/* Forms and Table */
+main#grid-area{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+article img{
+    display: block;
+    margin: auto;
+}
+article table{
+    margin: auto;
+}
+tfood td{
+    text-align: center;
+}
+caption{
+    font-weight: bold;
+}
+article{
+    border-radius: 30px;
+    background-color:green;
+}
+
+/* Contact style form */
+select fieldset{
+    background-color:lightgray;
+    border-color: lightgreen;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+fieldset span{
+    color: red;
+}
+
+div.formRow{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px;
+}
+
+#fname, #lname, #email{
+    width: 250px;
+}
+
+#phone{
+    width: 150px;
+}
+
+#mainList textarea{
+    width: 95%;
+    max-width: 450px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.blockLabel{
+    display: block;
+}

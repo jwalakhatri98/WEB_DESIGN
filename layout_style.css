@@ -1,0 +1,25 @@
+/* Jwala Khatri */
+footer {grid-area: footer;}
+header {grid-area: header;}
+main {grid-area: main;}
+nav {grid-area: nav;}
+section {grid-area: section;}
+
+#layout{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas:
+    "nav"
+    "header"
+    "section"
+    "main"
+    "footer"
+}
+
+main{
+    grid-area: main;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
